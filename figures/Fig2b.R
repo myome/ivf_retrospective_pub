@@ -1,8 +1,9 @@
 library(ggplot2)
 
 #Read data into a table
-oddsratios<-read.table("./data/retro.or.lifetimerisk_breastcancer.txt", header=T)
-sims<-read.table("./data/retro.breastcancer_ors_sims.txt", header=T)
+oddsratios<-read.table("./data/retro.or.breastcancer.txt", header=T)
+head(oddsratios)
+sims<-read.table("./data/retro.breastcancer_ors_sims2.txt", header=T)
 
 #Choose file to save figure
 png("./figures/fig2b.png", width=600, height=400)
