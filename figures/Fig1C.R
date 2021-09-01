@@ -27,6 +27,6 @@ prscovbygt<-ggplot(prstats, aes(fill=gt, y=cov*100, x=index)) + geom_bar(positio
 prserrorbygt<-ggplot(prstats, aes(fill=gt, y=(1-error)*100, x=index)) + geom_bar(position="dodge", stat="identity") + ylab("Accuracy (%)") + xlab("Case ID")+scale_fill_manual(values = c("#999999","#666666","black")) + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black"), legend.title=element_blank()) + coord_cartesian(ylim = c(90, 100))
 
 #Put together in grid
-png("./figures/coverage_error_bygt.png", width=800, height=800)
-ggarrange(cov, prscovbygt,error,prserrorbygt,ncol=2,nrow=2, labels=c("Genome-wide", "Polygenic Model Sites"), common.legend=TRUE)
+png("./figures/coverage_error_bygt.tiff", width=400, height=400)
+ggarrange(cov, prscovbygt,error,prserrorbygt,ncol=2,nrow=2,  common.legend=TRUE)
 dev.off()
