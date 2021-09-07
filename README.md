@@ -28,12 +28,14 @@ bash ./scripts/reconstruction/get_prediction_accuracy.sh predicted_embryo.vcf \
 ```
 
 Output files will be in
+- accuracy.txt
 - predicted_embryo.correct
 - predicted_embryo.wrong 
 - predicted_embryo.other
 
-These files contain the sites that are correct, wrong, or other (e.g. multiallelic or discarded). 
-Accuracy and coverage con be calculated from these files.
+accuracy.txt contains accuracy and coverage stastics genome-wide and for particular sites of interest.
+Other files contain the sites that are correct, wrong, or other (e.g. multiallelic or discarded). 
+
 
 ### Run the Example
 Example data is provided for NA12878 chr1.
