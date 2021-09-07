@@ -44,7 +44,7 @@ Example data is provided for NA12878 chr1.
 cd data/accuracy
 gunzip *.gz # uncompress the vcf files. The script accepts .vcf, not .vcf.gz files
 cd ../..  # go back to the repo directory
-bash ./scripts/get_prediction_accuracy.sh <ivf_retrospective_pub path>/data/accuracy/predicted_embryo.vcf \
+bash ./scripts/get_prediction_accuracy.sh <ivf_retrospective_pub path>/data/accuracy/predicted_embryo.chr1.vcf \
  					  <ivf_retrospective_pub path>/data/accuracy/triofile.chr1.vcf \
 					  <ivf_retrospective_pub path>/data/accuracy/retro.prs.sorted.vcf \
 					  <ivf_retrospective_pub path>/data/accuracy/mom.chr1.vcf \
