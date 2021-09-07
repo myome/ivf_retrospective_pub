@@ -55,7 +55,8 @@ where *<ivf_retrospective_pub>* is the path to this repository.
 # Generating Figures
 Code for generating figures in the paper is provided in the figures directory
 
-```Rscript figures/Fig1C.R
+```
+ Rscript figures/Fig1C.R
  Rscript figures/Fig2.R
  Rscript figures/Fig2b.R
  Rscript figures/SuppFigure4.R 
