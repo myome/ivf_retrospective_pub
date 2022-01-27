@@ -20,7 +20,7 @@ The following R packages
 ```
 cd ivf_retrospective_pub
 
-bash ./scripts/reconstruction/get_prediction_accuracy.sh predicted_embryo.vcf \
+bash ./scripts/get_prediction_accuracy.sh predicted_embryo.vcf \
 							 triofile.vcf  \
 							 sites_of_interest.vcf \
 							 mother.vcf \
