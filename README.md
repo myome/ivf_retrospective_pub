@@ -20,7 +20,7 @@ The following R packages
 ```
 cd ivf_retrospective_pub
 
-bash ./scripts/reconstruction/get_prediction_accuracy.sh predicted_embryo.vcf \
+bash ./scripts/get_prediction_accuracy.sh predicted_embryo.vcf \
 							 triofile.vcf  \
 							 sites_of_interest.vcf \
 							 mother.vcf \
@@ -59,5 +59,7 @@ Code for generating figures in the paper is provided in the figures directory
  Rscript figures/Fig1C.R
  Rscript figures/Fig2.R
  Rscript figures/Fig2b.R
- Rscript figures/SuppFigure4.R 
+ Rscript figures/SuppFig1.R
+ Rscript figures/SuppFig2.R
+ Rscript figures/SuppFigure3.R 
 ```
