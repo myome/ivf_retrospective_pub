@@ -1,0 +1,121 @@
+phenotype	decile	or
+"Breast Cancer"	1	0.403064548
+"Breast Cancer"	2	0.552770841
+"Breast Cancer"	3	0.673297236
+"Breast Cancer"	4	0.728013404
+"Breast Cancer"	5	0.856166347
+"Breast Cancer"	6	0.998327748
+"Breast Cancer"	7	1.078846582
+"Breast Cancer"	8	1.283516928
+"Breast Cancer"	9	1.547575655
+"Breast Cancer"	10	2.191259551
+"Prostate Cancer"	1	0.315158966
+"Prostate Cancer"	2	0.466221423
+"Prostate Cancer"	3	0.566660061
+"Prostate Cancer"	4	0.672082107
+"Prostate Cancer"	5	0.796387139
+"Prostate Cancer"	6	0.876116349
+"Prostate Cancer"	7	1.110937275
+"Prostate Cancer"	8	1.231489073
+"Prostate Cancer"	9	1.583417511
+"Prostate Cancer"	10	2.608737567
+"Colorectal Cancer"	1	0.626979219
+"Colorectal Cancer"	2	0.693374887
+"Colorectal Cancer"	3	0.808285638
+"Colorectal Cancer"	4	0.810304191
+"Colorectal Cancer"	5	0.939676813
+"Colorectal Cancer"	6	0.99031225
+"Colorectal Cancer"	7	1.099875696
+"Colorectal Cancer"	8	1.164925638
+"Colorectal Cancer"	9	1.393327112
+"Colorectal Cancer"	10	1.705120488
+"Crohn's Disease"	1	0.507335224
+"Crohn's Disease"	2	0.714350868
+"Crohn's Disease"	3	0.863683241
+"Crohn's Disease"	4	0.689485043
+"Crohn's Disease"	5	0.780691714
+"Crohn's Disease"	6	1.034043667
+"Crohn's Disease"	7	1.054840308
+"Crohn's Disease"	8	1.24221572
+"Crohn's Disease"	9	1.308927421
+"Crohn's Disease"	10	1.928242497
+"Ulcerative Colitis"	1	0.455172106
+"Ulcerative Colitis"	2	0.56694051
+"Ulcerative Colitis"	3	0.67680771
+"Ulcerative Colitis"	4	0.815029293
+"Ulcerative Colitis"	5	0.812866586
+"Ulcerative Colitis"	6	0.962317092
+"Ulcerative Colitis"	7	1.101344871
+"Ulcerative Colitis"	8	1.247311124
+"Ulcerative Colitis"	9	1.426545971
+"Ulcerative Colitis"	10	2.025771057
+"Type 1 Diabetes"	1	0.275830831
+"Type 1 Diabetes"	2	0.210892601
+"Type 1 Diabetes"	3	0.235241778
+"Type 1 Diabetes"	4	0.227125031
+"Type 1 Diabetes"	5	0.332670404
+"Type 1 Diabetes"	6	0.535810893
+"Type 1 Diabetes"	7	0.649666586
+"Type 1 Diabetes"	8	0.747312683
+"Type 1 Diabetes"	9	1.661154276
+"Type 1 Diabetes"	10	4.886932473
+"Type 2 Diabetes"	1	0.331973649
+"Type 2 Diabetes"	2	0.497155662
+"Type 2 Diabetes"	3	0.584736604
+"Type 2 Diabetes"	4	0.693945689
+"Type 2 Diabetes"	5	0.775525255
+"Type 2 Diabetes"	6	0.89303202
+"Type 2 Diabetes"	7	1.022141317
+"Type 2 Diabetes"	8	1.158288301
+"Type 2 Diabetes"	9	1.395689217
+"Type 2 Diabetes"	10	2.032903126
+"Coronary Artery Disease"	1	0.549409494
+"Coronary Artery Disease"	2	0.640839793
+"Coronary Artery Disease"	3	0.722681943
+"Coronary Artery Disease"	4	0.814406693
+"Coronary Artery Disease"	5	0.857884591
+"Coronary Artery Disease"	6	0.940922421
+"Coronary Artery Disease"	7	1.078616303
+"Coronary Artery Disease"	8	1.191027819
+"Coronary Artery Disease"	9	1.368470223
+"Coronary Artery Disease"	10	1.896063035
+"Atrial Fibrillation"	1	0.527132688
+"Atrial Fibrillation"	2	0.649328663
+"Atrial Fibrillation"	3	0.758117832
+"Atrial Fibrillation"	4	0.821854538
+"Atrial Fibrillation"	5	0.940594928
+"Atrial Fibrillation"	6	0.974750571
+"Atrial Fibrillation"	7	1.075745477
+"Atrial Fibrillation"	8	1.210399162
+"Atrial Fibrillation"	9	1.392786787
+"Atrial Fibrillation"	10	2.0035411
+Vitiligo	1	0.105477082
+Vitiligo	2	0.316472699
+Vitiligo	3	0.386816858
+Vitiligo	4	0.421991241
+Vitiligo	5	0.809010863
+Vitiligo	6	0.562704136
+Vitiligo	7	0.738629828
+Vitiligo	8	1.020190867
+Vitiligo	9	1.759757008
+Vitiligo	10	3.029165217
+Lupus	1	0.396734602
+Lupus	2	0.508416167
+Lupus	3	0.582894949
+Lupus	4	0.682230377
+Lupus	5	0.868577965
+Lupus	6	0.620141664
+Lupus	7	0.968013331
+Lupus	8	0.968013331
+Lupus	9	1.316311251
+Lupus	10	2.351277937
+"Pancreatic Cancer"	1	0.418237385
+"Pancreatic Cancer"	2	0.85145472
+"Pancreatic Cancer"	3	0.721429875
+"Pancreatic Cancer"	4	0.721429875
+"Pancreatic Cancer"	5	0.952620529
+"Pancreatic Cancer"	6	1.126119686
+"Pancreatic Cancer"	7	0.981530734
+"Pancreatic Cancer"	8	1.270771888
+"Pancreatic Cancer"	9	1.285240588
+"Pancreatic Cancer"	10	1.821027817
