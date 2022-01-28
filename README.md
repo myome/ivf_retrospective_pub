@@ -57,7 +57,7 @@ Code for generating figures in the paper is provided in the figures directory
 
 ```
  Rscript figures/Fig1C.R
- Rscript figures/Fig2.R
+ Rscript figures/Fig2a.R
  Rscript figures/Fig2b.R
  Rscript figures/SuppFig1.R
  Rscript figures/SuppFig2.R
