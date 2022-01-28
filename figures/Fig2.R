@@ -33,12 +33,12 @@ df2 <- df2 %>%
 ### plot
 
 fig2a<-ggplot() +
-    geom_point(data=df2, aes(percentile, OR, color=factor(BRCA1_variant)), size=1) +
+    geom_point(data=df2, aes(percentile, OR, color=factor(BRCA1_variant)), size=0.5) +
     scale_color_manual(values=c("black", "darkblue", "red", "red")) +
-    geom_point(data=emb, aes(resid_percentile, OR, color=sex, shape=sex), size=1) +
+    geom_point(data=emb, aes(resid_percentile, OR, color=sex, shape=sex), size=1.5) +
     scale_shape_manual(values = c(19,17)) +
     scale_y_continuous(trans='log2') +
-    geom_hline(yintercept=c(0.94, 1.04*4.5), linetype='dashed', color=c('lightgreen', 'pink'), size=0.75) +
+    geom_hline(yintercept=c(0.94, 1.04*4.5), linetype='dashed', color=c('lightgreen', 'pink'), size=0.5) +
     theme_bw() + 
     theme(legend.position = "none") + theme(text = element_text(size = 7)) +
     xlab("Percentile") +
@@ -54,7 +54,7 @@ fig2b<-ggplot(data=oddsratios,aes(x=as.factor(caseid),y=oddsratio,fill=as.factor
 
 #Joint plot
 #ggsave("./figures/fig2.png", dpi=600)
-combinedplot<-ggarrange(fig2a, fig2b, ncol=1,nrow=2, labels=c("a","b"),font.label=list(color="black", size=7),hjust=-0.65)
+combinedplot<-ggarrange(fig2a, fig2b, ncol=1,labels=c("a","b"),heights=c(1.75,1.25),font.label=list(color="black", size=7),hjust=-0.65)
 
 ggsave("./figures/Fig2.pdf", plot=combinedplot, dpi=300, width=88, height=130, units=c("mm"), device="pdf")
 
