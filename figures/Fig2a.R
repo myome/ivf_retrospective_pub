@@ -6,7 +6,7 @@ library(ggplot2)
 
 ## embryo simulation results
 
-emb <- fread("./indivbrca_data_noids.csv")
+emb <- fread("./data/indivbrca_data_noids.csv")
 
 ## with original beta
 
