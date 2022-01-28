@@ -32,4 +32,4 @@ axs[1].set(ylabel=None)
 
 plt.legend(title=None, labels=['EUR', 'AFR', 'SAS', 'EAS', 'AKJ'])
 
-fig.savefig(os.path.join(figpath, 'sup6.png'))
+fig.savefig(os.path.join(figpath, 'sup6.pdf'))
