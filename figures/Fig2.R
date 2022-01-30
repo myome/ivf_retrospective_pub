@@ -2,15 +2,14 @@ library(data.table)
 library(dplyr)
 library(ggplot2)
 library(ggpubr)
-library(cairo)
+
 
 #Figure 2A
 ## with brca
 
 ## embryo simulation results
 
-# emb <- fread("./data/indivbrca_data_noids.csv")
-emb <- fread("../data/indivbrca_data_noids.csv")
+emb <- fread("./data/indivbrca_data_noids.csv")
 
 ## with original beta
 
@@ -43,7 +42,7 @@ fig2a<-ggplot() +
     geom_hline(yintercept=c(0.94, 1.04*4.5), linetype='dashed', color=c('lightgreen', 'pink'), size=0.5) +
     theme_bw() + 
     theme(legend.position = "none") + theme(text = element_text(size = 7)) +
-    annotate("text", x=c(.45, .4), y=c(1.3, 5.5), label = c("italic(Non-carrier)", "italic(BRCA1)"), color="darkblue", size=5, parse=TRUE) +
+    annotate("text", x=c(.4, .4), y=c(1.35, 5.5), label = c("italic(Non-carrier)", "italic(BRCA1)"), color="darkblue", size=5, parse=TRUE) +
     xlab("Percentile") +
     ylab("Odds Ratio")
 
