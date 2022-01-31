@@ -11,4 +11,5 @@ absplot<-ggplot(oddsratios,aes(x=as.factor(caseid),y=lifetimerisk*100,fill=pheno
 
 combinedplot<-ggarrange(orplot, absplot, ncol=1,nrow=2, labels=c("a","b"),font.label=list(color="black", size=8),hjust=-0.65)
 
-ggsave("./figures/SuppFig3.pdf", plot=combinedplot, dpi=300, width=180, height=190, units=c("mm"), device="pdf")
+ggsave("./figures/ExtFig6.pdf", plot=combinedplot, dpi=300, width=180, height=190, units=c("mm"), device="pdf")
+ggsave("./figures/ExtFig6.jpg", plot=combinedplot, dpi=300, width=180, height=190, units=c("mm"), device="jpg")
